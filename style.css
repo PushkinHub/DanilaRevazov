@@ -2,6 +2,22 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+dt {
+  background-color: white;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 3px;
+}
+
+dd {
+  text-decoration: underline;
+}
+
 .container {
   width: 780px;
   margin: 0 auto;
