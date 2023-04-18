@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Open Sans';
 }
 
 dt {
@@ -18,17 +18,17 @@ dd {
 }
 
 .container {
-  width: 780px;
+  max-width: 780px;
   margin: 0 auto;
 }
 
 .page {
   display: flex;
   flex-direction: column;
-  min-width: 640px;
+  min-width: 320px;
   min-height: 100vh;
   margin: 0;
-  font-family: "Verdana", "Tahoma", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #f2f2f2;
@@ -48,6 +48,24 @@ dd {
 a {
   color: #6653d9;
 }
+
+/* Media Query for screens smaller than 640px */
+@media (max-width: 640px) {
+  .container {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+/* Media Query for screens smaller than 480px */
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
 
 a:focus {
   outline-color: #b6aaff;
