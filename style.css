@@ -66,6 +66,9 @@ a {
   }
 }
 
+a {
+  text-decoration: none;
+}
 
 a:focus {
   outline-color: #b6aaff;
