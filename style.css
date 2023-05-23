@@ -17,6 +17,13 @@ dd {
   text-decoration: underline;
 }
 
+.project {
+  color: #17161a;
+  background-color: oldlace;
+  padding: 15px;
+  border-radius: 7%;
+}
+
 .container {
   max-width: 780px;
   margin: 0 auto;
